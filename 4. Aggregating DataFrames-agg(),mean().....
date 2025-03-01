@@ -42,3 +42,5 @@ sales_1_1["cum_max_sales"] = sales_1_1["weekly_sales"].cummax()
 # See the columns you calculated
 print(sales_1_1[["date", "weekly_sales", "cum_weekly_sales", "cum_max_sales"]])
 
+#Now  Learning groupby method that help for group multiple value at one time insted of select them multiple time. 
+
