@@ -50,3 +50,10 @@ set index,reset index,drop index,subset inner levels sort by values
 #slicing by loc & iloc
 -difference ,how work,when use?
 
+# Missing value Handle
+-NaN-not a number
+we use isna() to find missing value
+dropna() for drop missing value
+
+#Dictionaries
+dictionaries of list
