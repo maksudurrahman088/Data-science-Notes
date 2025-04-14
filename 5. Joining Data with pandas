@@ -1,1 +1,13 @@
-
+# Merge two dataframe based on their common collumn
+#One to many relation -merge multiple table
+#inner join ,
+left join-movies_financials = movies.merge(financials, on='id', how='left')
+#outer join
+#Mergin on index
+#Filtering joins
+#Concatinate dataframe vertically
+# after concat or merger we can verify our data duplication or something like that
+merge vs merge ordered()
+merge_asof()--used for handling time series data.
+.query
+.melt()
